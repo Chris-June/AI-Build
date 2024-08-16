@@ -1,0 +1,29 @@
+/* Breadcrumb.css */
+
+/* Base style for the breadcrumb container */
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+/* Style for individual breadcrumb items */
+.breadcrumb-item {
+  margin-right: 5px;
+}
+
+/* Style for links within breadcrumb items */
+.breadcrumb-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.breadcrumb-link:hover {
+  text-decoration: underline;
+}
+
+/* Separator between breadcrumb items */
+.breadcrumb-separator {
+  margin-right: 5px;
+  color: #6c757d;
+}

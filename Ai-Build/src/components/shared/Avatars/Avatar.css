@@ -1,0 +1,26 @@
+/* Avatar.css */
+
+/* Base style for the avatar component */
+.avatar {
+  border-radius: 50%; /* Makes the avatar circular */
+  display: inline-block;
+  object-fit: cover; /* Ensures the image covers the entire avatar area */
+}
+
+/* Small avatar size */
+.avatar-small {
+  width: 40px;
+  height: 40px;
+}
+
+/* Medium avatar size (default) */
+.avatar-medium {
+  width: 80px;
+  height: 80px;
+}
+
+/* Large avatar size */
+.avatar-large {
+  width: 120px;
+  height: 120px;
+}

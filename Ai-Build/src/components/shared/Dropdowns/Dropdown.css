@@ -1,0 +1,43 @@
+/* Dropdown.css */
+
+/* Base style for the dropdown container */
+.dropdown {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+}
+
+/* Style for the dropdown label */
+.dropdown-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Base style for the dropdown menu */
+.dropdown-menu {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 5px;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Style for individual dropdown items */
+.dropdown-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: #f0f0f0;
+}
+
+/* Style for selected dropdown item */
+.selected {
+  background-color: #007bff;
+  color: #fff;
+}

@@ -1,0 +1,29 @@
+/* Table.css */
+
+/* Base style for the table */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+/* Style for the table headers */
+.table th {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+  border-bottom: 2px solid #ddd;
+}
+
+/* Style for the table cells */
+.table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Style for table rows on hover */
+.table tr:hover {
+  background-color: #f1f1f1;
+}

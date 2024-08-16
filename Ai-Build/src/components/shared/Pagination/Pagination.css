@@ -1,0 +1,38 @@
+/* Pagination.css */
+
+/* Base style for the pagination container */
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+/* Style for individual pagination items */
+.pagination-item {
+  margin: 0 5px;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Style for active pagination item */
+.pagination-item.active {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+
+/* Style for disabled pagination item */
+.pagination-item.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Hover effect for pagination items */
+.pagination-item:hover:not(.active):not(.disabled) {
+  background-color: #f0f0f0;
+}

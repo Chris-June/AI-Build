@@ -1,0 +1,38 @@
+/* Tabs.css */
+
+/* Base style for the tabs container */
+.tabs {
+  width: 100%;
+}
+
+/* Style for the tabs header (tab buttons) */
+.tabs-header {
+  display: flex;
+  border-bottom: 2px solid #ddd;
+}
+
+/* Style for individual tab buttons */
+.tabs-button {
+  flex: 1;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  border: none;
+  border-bottom: 2px solid transparent;
+  transition: background-color 0.3s, border-bottom-color 0.3s;
+}
+
+/* Style for the active tab */
+.tabs-button.active {
+  background-color: #fff;
+  border-bottom-color: #007bff;
+  font-weight: bold;
+}
+
+/* Style for the tab content */
+.tabs-content {
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-top: none;
+}

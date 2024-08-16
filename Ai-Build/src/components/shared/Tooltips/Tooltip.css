@@ -1,0 +1,30 @@
+/* Tooltip.css */
+
+/* Base style for the tooltip container */
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+}
+
+/* Style for the tooltip message */
+.tooltip {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 8px;
+  padding: 8px;
+  background-color: #333;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 4px;
+  white-space: nowrap;
+  z-index: 1000;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+/* Show tooltip on hover */
+.tooltip-container:hover .tooltip {
+  opacity: 1;
+}
