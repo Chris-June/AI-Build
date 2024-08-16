@@ -1,0 +1,34 @@
+/* ChatInput.css */
+
+/* Container for the chat input section */
+.chat-input {
+  display: flex;            /* Align input and button horizontally */
+  border-top: 1px solid #ddd; /* Top border to separate input from chat messages */
+  padding: 10px;            /* Padding around the input area */
+  background-color: #fff;   /* White background for the input area */
+}
+
+/* Styling for the input field */
+.chat-input-field {
+  flex-grow: 1;             /* Take up remaining space */
+  padding: 10px;            /* Padding inside the input field */
+  border: 1px solid #ddd;   /* Light border around the input field */
+  border-radius: 4px;       /* Rounded corners for the input field */
+  margin-right: 10px;       /* Space between input and button */
+  font-size: 14px;          /* Standard font size */
+}
+
+/* Styling for the send button */
+.chat-input-button {
+  padding: 10px 20px;       /* Padding inside the button */
+  background-color: #007bff; /* Blue background color */
+  color: #fff;              /* White text color */
+  border: none;             /* Remove border */
+  border-radius: 4px;       /* Rounded corners */
+  cursor: pointer;          /* Pointer cursor on hover */
+  font-size: 14px;          /* Standard font size */
+}
+
+.chat-input-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}

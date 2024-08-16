@@ -1,0 +1,10 @@
+/* MessageList.css */
+
+/* Container for the message list */
+.message-list {
+  flex-grow: 1;             /* Allow the message list to grow and fill available space */
+  padding: 10px;            /* Padding around the message list */
+  overflow-y: auto;         /* Vertical scrollbar for overflow */
+  background-color: #fff;   /* White background for the message list */
+  border-bottom: 1px solid #ddd; /* Bottom border to separate from the input area */
+}

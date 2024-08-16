@@ -1,0 +1,27 @@
+/* AgentStatus.css */
+
+/* General styling for the agent status container */
+.agent-status {
+  text-align: center; /* Center the text */
+  padding: 15px;      /* Add padding around the status text */
+  border-radius: 8px; /* Rounded corners */
+  font-size: 16px;    /* Standard font size for the status text */
+}
+
+/* Styling for when the agent is active */
+.agent-status-active {
+  background-color: #d4edda; /* Light green background for active status */
+  color: #155724;            /* Dark green text for active status */
+}
+
+/* Styling for when the agent is idle */
+.agent-status-idle {
+  background-color: #fff3cd; /* Light yellow background for idle status */
+  color: #856404;            /* Dark yellow text for idle status */
+}
+
+/* Styling for when the agent is offline */
+.agent-status-offline {
+  background-color: #f8d7da; /* Light red background for offline status */
+  color: #721c24;            /* Dark red text for offline status */
+}

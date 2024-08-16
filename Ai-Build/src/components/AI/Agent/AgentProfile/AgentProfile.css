@@ -1,0 +1,24 @@
+/* AgentProfile.css */
+
+/* Container for the agent profile */
+.agent-profile {
+  text-align: center; /* Center-align text and content */
+  padding: 20px;      /* Add padding around the profile */
+  border: 1px solid #ddd; /* Light border for the profile container */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #f9f9f9; /* Light background color */
+}
+
+/* Styling for the agent's name */
+.agent-name {
+  margin-top: 10px;   /* Space above the name */
+  font-size: 24px;    /* Larger font size for the name */
+  color: #333;        /* Darker color for the name */
+}
+
+/* Styling for the agent's description */
+.agent-description {
+  margin-top: 8px;    /* Space above the description */
+  font-size: 16px;    /* Standard font size for the description */
+  color: #666;        /* Lighter color for the description */
+}

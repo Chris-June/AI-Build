@@ -1,0 +1,18 @@
+/* AgentSettings.css */
+
+/* Container for the agent settings form */
+.agent-settings {
+  max-width: 400px;   /* Limit the width of the settings form */
+  margin: 0 auto;     /* Center the form horizontally */
+  padding: 20px;      /* Add padding around the form */
+  border: 1px solid #ddd; /* Light border around the form */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #fff; /* White background for the form */
+}
+
+/* Header styling for the agent settings section */
+.agent-settings h2 {
+  margin-bottom: 20px; /* Space below the header */
+  font-size: 22px;     /* Larger font size for the header */
+  color: #333;         /* Darker color for the header */
+}

@@ -1,0 +1,33 @@
+/* MessageItem.css */
+
+/* Container for each message item */
+.message-item {
+  padding: 10px;            /* Padding around each message */
+  margin-bottom: 10px;      /* Space between messages */
+  border-radius: 4px;       /* Rounded corners for the message */
+  display: flex;            /* Display sender and text inline */
+}
+
+/* Styling for messages from the user */
+.message-user {
+  background-color: #007bff; /* Blue background for user messages */
+  color: #fff;              /* White text for user messages */
+  align-self: flex-end;     /* Align user messages to the right */
+}
+
+/* Styling for messages from the agent */
+.message-agent {
+  background-color: #f1f1f1; /* Light gray background for agent messages */
+  color: #333;               /* Dark text for agent messages */
+  align-self: flex-start;    /* Align agent messages to the left */
+}
+
+/* Styling for the sender's name */
+.message-sender {
+  margin-right: 5px;         /* Space between sender's name and message text */
+}
+
+/* Styling for the message text */
+.message-text {
+  word-wrap: break-word;     /* Ensure long words wrap to the next line */
+}

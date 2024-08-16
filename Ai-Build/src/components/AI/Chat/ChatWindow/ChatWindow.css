@@ -1,0 +1,12 @@
+/* ChatWindow.css */
+
+/* Container for the chat window */
+.chat-window {
+  display: flex;            /* Flexible layout to stack messages and input vertically */
+  flex-direction: column;   /* Stack messages above input */
+  height: 100%;             /* Full height to fill the parent container */
+  border: 1px solid #ddd;   /* Light border around the chat window */
+  border-radius: 8px;       /* Rounded corners */
+  background-color: #f9f9f9; /* Light background color */
+  overflow: hidden;         /* Hide overflow to prevent scrollbars */
+}
