@@ -1,0 +1,35 @@
+# Utils Directory
+
+## Purpose:
+The `utils` folder within the `services` directory is home to utility functions and helper methods that perform common tasks across our AI-based web application. These utility functions are designed to be reusable, stateless, and focused on a single responsibility, making them easy to maintain and test. By centralizing these utilities, we promote code reuse, reduce duplication, and ensure that common operations are handled consistently throughout the application.
+
+## Contents:
+- **API Helpers:** Utility functions that simplify interactions with APIs, such as building query strings, handling responses, and managing errors. These helpers abstract the details of API communication, making it easier to work with external services in a consistent manner.
+
+- **Data Processing:** Functions that handle data transformation, validation, and formatting. These utilities are essential for ensuring that data is processed correctly before being displayed in the UI or sent to an API.
+
+- **Local Storage Management:** Helper functions that interact with the browser's local storage, including setting, getting, and removing items. These utilities make it easier to manage persistent data on the client side.
+
+- **General Utilities:** A collection of common utility functions that perform tasks like deep cloning, generating unique IDs, debouncing functions, and more. These general-purpose utilities are often used across multiple components and services, providing essential functionality in a modular way.
+
+- **Instructional Guides:** Documents that explain how to use the utility functions within this directory. These guides provide examples and best practices for integrating the utilities into your code, ensuring that you leverage their full potential.
+
+## How to Use:
+1. **Explore Existing Utilities:** Review the utility functions available in this directory to understand their functionality and potential use cases. Each utility is designed to be generic and reusable, making it applicable in various parts of the application.
+
+2. **Integrate Utilities:** When building new features or components, identify opportunities to use existing utility functions. These utilities can help simplify your code by handling common tasks and reducing the need for repetitive logic.
+
+3. **Create New Utilities:** If you find yourself writing similar code in multiple places, consider creating a new utility function. Focus on making the utility as generic as possible, so it can be reused in other parts of the application.
+
+4. **Document Your Utilities:** When adding new utility functions, include clear documentation within the `utils` folder. This documentation should explain the function's purpose, parameters, and return values, as well as any specific considerations or edge cases.
+
+5. **Follow the Guides:** Refer to the instructional guides within this directory to ensure you're using utility functions effectively and following best practices. These guides will help you understand how to integrate and extend utilities in a consistent manner.
+
+6. **Contribute Back:** If you develop a new utility function that could benefit the project, contribute it back to the `utils` folder. This helps maintain a centralized approach to handling common tasks and promotes code reuse across the application.
+
+## Next Steps:
+- Familiarize yourself with the current utility functions and their use cases.
+- Use the guides to help integrate and extend utilities in your components and services.
+- Consult your mentor or project lead if you need further clarification or assistance.
+
+Streamline your development process with reusable utility functions!
