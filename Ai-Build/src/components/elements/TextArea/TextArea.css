@@ -1,0 +1,14 @@
+.textarea-element {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 100%;
+  height: 100px;
+  box-sizing: border-box;
+}
+
+.textarea-element:focus {
+  border-color: #007bff;
+  outline: none;
+}

@@ -1,0 +1,118 @@
+### Intellisync AI Build Project Documentation
+
+#### **Project Overview:**
+- **Project Name:** Intellisync Open Build
+- **Folders:**
+  - **Intellisync-open-build/Ai-Build**
+  - **Intellisync-open-build/SocialNetwork-Build**
+- **Project Goal:** 
+  - To build an AI for personal use that will utilize OpenAI API to connect to all endpoints. The AI model will have the following capabilities:
+    - Speech-to-Text (STT)
+    - Text-to-Speech (TTS)
+    - File upload
+    - Vision processing
+    - Code interpreter
+    - DALL-E 3
+    - Web browsing
+  - The project will use OpenAI API documentation and code snippet examples as the starting point.
+  - The build will be open-sourced as part of the company's strategy to promote AI integration.
+
+#### **Technology Stack:**
+- **Framework:** Vite (for fast builds and modern development environment)
+- **Frontend Library:** React
+- **Additional Libraries:** (To be determined based on component needs)
+- **API:** OpenAI API
+- **Styling:** CSS (with individual component styles)
+
+### **File Structure:**
+Intellisync-open-build/
+└── Ai-Build/
+├── src/
+│   ├── components/
+│   │   ├── Authentication/
+│   │   │   ├── Register/
+│   │   │   ├── Login/
+│   │   │   └── SignIn/
+│   │   ├── UserProfile/
+│   │   ├── Dashboard/
+│   │   ├── shared/
+│   │   │   ├── Buttons/
+│   │   │   ├── Forms/
+│   │   │   ├── Inputs/
+│   │   │   ├── Dropdowns/
+│   │   │   ├── Modals/
+│   │   │   ├── Tables/
+│   │   │   ├── Cards/
+│   │   │   ├── Tooltips/
+│   │   │   ├── Alerts/
+│   │   │   ├── Avatars/
+│   │   │   ├── Tabs/
+│   │   │   ├── Pagination/
+│   │   │   ├── Breadcrumbs/
+│   │   │   └── ProgressBars/
+│   │   ├── elements/
+│   │   ├── components/
+│   │   ├── widgets/
+│   │   ├── templates/
+│   │   ├── pages/
+│   ├── services/
+│   │   ├── authService.js
+│   │   ├── userService.js
+│   │   └── utils/
+│   ├── config/
+│   ├── hooks/
+│   ├── styles/
+│   │   ├── theme/
+│   │   ├── global.css
+│   ├── App.jsx
+│   ├── index.jsx
+│   ├── main.jsx
+├── public/
+├── .env
+├── .env.development
+├── .env.production
+├── vite.config.js
+├── package.json
+└── storybook/  # For UI documentation
+
+### **Folder Descriptions:**
+
+- **src/components/**
+  - **Authentication/**: Contains components related to user authentication, such as `Register`, `Login`, and `SignIn`.
+  - **UserProfile/**: Houses components related to user profile management.
+  - **Dashboard/**: Contains components specific to the dashboard functionality.
+  - **shared/**: A directory for reusable UI elements that are used across multiple features, such as `Buttons`, `Forms`, `Inputs`, and `Modals`.
+  - **elements/**: Basic building blocks of the UI, like buttons and input fields.
+  - **components/**: More complex UI components that are combinations of elements, like forms or cards.
+  - **widgets/**: Full-featured UI modules that combine multiple components, such as a user profile widget or a navigation bar.
+  - **templates/**: Layout templates that structure how pages are organized.
+  - **pages/**: Complete pages that combine templates, widgets, and components.
+
+- **src/services/**
+  - **authService.js**: Handles authentication-related API calls and logic.
+  - **userService.js**: Manages user-related API interactions.
+  - **utils/**: Utility functions that are reused across services and components.
+
+- **src/config/**
+  - Holds configuration files, constants, and environment-specific settings.
+
+- **src/hooks/**
+  - Custom React hooks to manage state and side effects throughout the application.
+
+- **src/styles/**
+  - **theme/**: Contains global theming configurations, likely using CSS variables or a theming library.
+  - **global.css**: Global CSS styles that apply across the entire application.
+
+- **App.jsx**: The main application component that brings everything together.
+- **index.jsx**: The entry point for React rendering.
+- **main.jsx**: Typically used for application setup, such as integrating Redux or context providers.
+
+- **public/**: Contains public assets like the favicon and index.html.
+
+- **.env, .env.development, .env.production**: Environment variable files for managing different configurations based on the environment.
+
+- **vite.config.js**: Configuration file for Vite, managing build settings and plugins.
+
+- **package.json**: Tracks project dependencies and scripts.
+
+- **Help/**: A directory for Help, a tool for developing UI components in isolation and documenting them.
