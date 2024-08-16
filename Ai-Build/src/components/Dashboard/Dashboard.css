@@ -1,0 +1,23 @@
+/* Dashboard.css */
+
+/* Base styles for the dashboard container */
+.dashboard {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Style for the dashboard header */
+.dashboard h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #333;
+}
+
+/* Style for the dashboard content area */
+.dashboard-content {
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
